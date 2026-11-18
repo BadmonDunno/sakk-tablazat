@@ -1,0 +1,32 @@
+body {
+    font_family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #554b50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 24px;
+}
+
+th {
+    font-size: 26px;
+    padding: 12px;
+}
+
+td {
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #aaa5aa;
+}
+tr:nth-child(odd) td {
+    font-weight: bold;
+}
